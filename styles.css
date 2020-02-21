@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Anton';
+}
+.header{
+    background-image: url("images/header-bg.png");
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 5%;  
+}
+.half-width img{
+    width: 600px;
+    height: 650px;
+}
+#top-banner{
+    padding-top: 200px;
+}
+.name{
+    color: rgb(206, 57, 31);
+    font-size: 30px;
+}
+.button{
+    text-decoration: none;
+    padding: 20px 40px;
+    border-radius: 10px;
+    background:linear-gradient(rgb(187, 218, 12),rgb(0, 225, 255));
+    color: rgb(102, 0, 0);  
+}
+.button:hover{
+    text-decoration: none;
+    padding: 10px 25px;
+    background:linear-gradient(160deg, cyan,salmon);
+    color: rgb(35, 0, 92);
+    margin: 10px;
+    cursor: grab;
+}
+.biography{
+    background-image: url("images/biography-bg.png");
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+.work{
+    float: left;
+    width: 25%;
+    margin-left: 5%;
+    text-align: center;
+}
+.work img{
+    width: 100%;
+}
+.work img:hover{
+    box-shadow: 10px 10px 55px dimgray;
+
+}
+section{
+    height: 500px;
+    padding-bottom: 300px;
+}
+.client{
+    padding-bottom: 15px;
+}
+.bottom-button{
+   margin-top: 50px;
+}
+.bottom-inner{
+    color: rgb(49, 1, 45);
+    padding: 50px 75px;
+    border: none;
+    border-radius: 5px;
+    background-image: linear-gradient(360deg,rgb(0, 255, 242),rgb(133, 6, 236));
+}
+.bottom-inner h5{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.bottom-inner h4{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.latestwork{
+    background-image: url("images/latest-work-bg.png");
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+.my-latest{
+    text-align: center;
+    margin: 50px;
+    padding: 50px;
+}
+#bottom-banner{
+    padding-top: 200px;
+   
+}
+.client-comment{
+    background-image: url("images/footer-bg.png");
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    text-align: center;
+}
+footer p{
+    text-align: center;
+    font-size: 15px;
+    position: relative;
+}
